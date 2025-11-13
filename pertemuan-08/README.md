@@ -10,4 +10,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li>menambahkan section ID "entry-data" </li>
   <li>melengkapi section ID entry-data </li>
+  <li>menambahkan style css untuk section ID #entrydata</li>
 </ol>

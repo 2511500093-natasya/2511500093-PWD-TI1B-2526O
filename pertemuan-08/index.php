@@ -48,12 +48,12 @@ endif;
       <h2>Selamat Datang</h2>
       <?php
       echo "halo dunia!<br>";
-      echo "nama saya natasya";
+      echo "nama saya Natasya";
       ?>
       <p>Ini contoh paragraf HTML.</p>
     </section>
 
-    <section id="entry-data">
+    <section id="entrydata">
       <h2>Entry Data Mahasiswa</h2>
       <form action="proses_mahasiswa.php" method="POST">
 
@@ -103,7 +103,7 @@ endif;
     <section id="about">
       <?php
       $nim = 2511500010;
-      $NIM = '0344300002';
+      $NIM = '2511500093';
       $nama = "Natasyah Aprilya";
       $Nama = 'Natasyah Aprilya';
       $tempat = "Bekasi";

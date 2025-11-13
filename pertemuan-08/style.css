@@ -51,6 +51,7 @@ header li a:active {
 
 #home:target~header nav a[href="#home"],
 #about:target~header nav a[href="#about"],
+#entrydata:target~header nav a[href="#entrydata"],
 #contact:target~header nav a[href="#contact"] {
   background: #fff;
   color: #003366;
@@ -61,6 +62,7 @@ header li a:active {
 
 #home,
 #about,
+#entrydata,
 #contact {
   background-color: #ffffff;
   border-radius: 10px;
@@ -72,6 +74,7 @@ header li a:active {
 
 #home h2,
 #about h2,
+#entrydata h2,
 #contact h2 {
   color: #003366;
   border-bottom: 2px solid #003366;
@@ -85,6 +88,7 @@ header li a:active {
 }
 
 #about p,
+#entrydata label,
 #contact label {
   display: flex;
   justify-content: flex-start;
@@ -95,6 +99,7 @@ header li a:active {
 }
 
 #about strong,
+#entrydata label,
 #contact label>span {
   min-width: 180px;
   color: #003366;
@@ -105,6 +110,7 @@ header li a:active {
 }
 
 #contact input,
+#entrydata input,
 #contact textarea {
   flex: 1;
   border: 1px solid #ccc;
@@ -116,6 +122,7 @@ header li a:active {
   box-sizing: border-box;
 }
 
+#entrydata button,
 #contact button {
   margin-top: 10px;
   display: inline-block;
@@ -128,24 +135,28 @@ header li a:active {
   margin-right: 8px;
 }
 
+#entrydata button[type="submit"]
 #contact button[type="submit"] {
   background-color: #003366;
   color: #fff;
   font-weight: 600;
 }
 
+#entrydata button[type="reset"]
 #contact button[type="reset"] {
   background-color: #b4b4b4;
   color: #272727;
   font-weight: 500;
 }
 
+#entrydata button[type="summit"]:hover,
 #contact button[type="submit"]:hover {
   background-color: #0379ee;
   transform: translateY(-1px);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
+#entrydata button[type="reset"]:hover,
 #contact button[type="reset"]:hover {
   background-color: #cccccc;
   transform: translateY(-1px);
