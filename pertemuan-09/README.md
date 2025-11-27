@@ -17,4 +17,6 @@
   <li>menambahkan baris kode baru</li>
   <li>menghapus baris</li>
   <li>menambahkan file baru pada folder pertemuan 09</li>
+  <li>menambahkan kode pada fungsi php</li>
+  <li>menambahkan kode pada fungsi php untuk merender hasil atau output biodata</li>
 </ol>
