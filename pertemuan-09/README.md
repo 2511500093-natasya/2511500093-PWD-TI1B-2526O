@@ -15,4 +15,5 @@
   <li>mengganti kode yang redundan</li>
   <li>mengganti kode sebelum section about</li>
   <li>menambahkan baris kode baru</li>
+  <li>menghapus baris</li>
 </ol>
