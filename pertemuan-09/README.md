@@ -14,4 +14,5 @@
   <li>memodifikasi data POST ke array associative</li>
   <li>mengganti kode yang redundan</li>
   <li>mengganti kode sebelum section about</li>
+  <li>menambahkan baris kode baru</li>
 </ol>
