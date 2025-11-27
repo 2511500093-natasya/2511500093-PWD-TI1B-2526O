@@ -19,4 +19,5 @@
   <li>menambahkan file baru pada folder pertemuan 09</li>
   <li>menambahkan kode pada fungsi php</li>
   <li>menambahkan kode pada fungsi php untuk merender hasil atau output biodata</li>
+  <li>mengganti kode pada file index.php</li>
 </ol>
