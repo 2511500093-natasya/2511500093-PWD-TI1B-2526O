@@ -20,4 +20,5 @@
   <li>menambahkan kode pada fungsi php</li>
   <li>menambahkan kode pada fungsi php untuk merender hasil atau output biodata</li>
   <li>mengganti kode pada file index.php</li>
+  <li>menambahkan kode pada file index.php</li>
 </ol>
