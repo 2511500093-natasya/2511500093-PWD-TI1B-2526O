@@ -11,4 +11,6 @@
   <li>tangkap session dari file proses selesai</li>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
+  <li>memodifikasi data POST ke array associative</li>
+  <li>mengganti kode yang redundan</li>
 </ol>
