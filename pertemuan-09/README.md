@@ -13,4 +13,5 @@
   <li>echo session ke nilai label section contact selesai</li>
   <li>memodifikasi data POST ke array associative</li>
   <li>mengganti kode yang redundan</li>
+  <li>mengganti kode sebelum section about</li>
 </ol>
