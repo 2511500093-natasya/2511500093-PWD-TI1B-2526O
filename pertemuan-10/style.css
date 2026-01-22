@@ -229,13 +229,15 @@ footer {
   }
 
   #about p,
-  #contact label, 
+  #contact p,
+  #contact label,
   #biodata label {
     flex-direction: column;
     align-items: flex-start;
   }
 
   #about strong,
+  #contact strong,
   #contact label>span,
   #biodata label>span {
     text-align: left;
