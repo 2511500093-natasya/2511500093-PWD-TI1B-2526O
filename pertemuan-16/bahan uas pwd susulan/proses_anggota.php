@@ -10,17 +10,20 @@ require_once __DIR__ . '/fungsi.php';
 */
 
 $arrAnggota = [
-  "noang" => $_POST["txtNoAng"] ?? "",
-  "nama" => $_POST["txtNmAng"] ?? "",
-  "jabatan" => $_POST["txtJabAng"] ?? "",
-  "tanggal" => $_POST["txtTglJadi"] ?? "",
-  "skill" => $_POST["txtSkill"] ?? "",
-  "gaji" => $_POST["txtGaji"] ?? "",
-  "nowa" => $_POST["txtNoWA"] ?? "",
-  "batalion" => $_POST["txBatalion"] ?? "",
-  "bb" => $_POST["txtBB"] ?? "",
-  "tb" => $_POST["txtTB"] ?? ""
+  "noang"     => $_POST["txtNoAng"] ?? "",
+  "nama"      => $_POST["txtNmAng"] ?? "",
+  "jabatan"   => $_POST["txtJabAng"] ?? "",
+  "tanggal"   => $_POST["txtTglJadi"] ?? "",
+  "skill"     => $_POST["txtSkill"] ?? "",
+  "gaji"      => $_POST["txtGaji"] ?? "",
+  "nowa"      => $_POST["txtNoWA"] ?? "",
+  "batalion"  => $_POST["txtBatalion"] ?? "",
+  "bb"        => $_POST["txtBB"] ?? "",
+  "tb"        => $_POST["txtTB"] ?? ""
 ];
+
 $_SESSION["anggota"] = $arrAnggota;
 
-header("location: index.php#anggota");
+insertAnggota($conn, $arrAnggota);
+redirect_ke('index.php#anggota');
+
